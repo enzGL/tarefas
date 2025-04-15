@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tarefas</title>
+</head>
+
+<body>
+    <h1>Tarefas</h1>
+    <form>
+        <input type="text" id="tarefa" placeholder="Digite sua tarefa aqui">
+        <p class="label-data">Escolha a data da tarefa</p>
+        <input type="date" id="data" class="input-data">
+        <button type="button" onclick="fnSalvarTarefa(); fnExibirTarefa();">Salvar ✅</button>
+    </form>
+    <ul id="lista-tarefas"></ul>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
